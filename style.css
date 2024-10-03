@@ -536,6 +536,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .element {
+        width: 250px;
         position: absolute;
         z-index: 100;
         animation: reveal 1.2s;
@@ -592,7 +593,7 @@ body::-webkit-scrollbar-thumb {
         letter-spacing: -4px;
         text-align: center;
         line-height: 100%;
-        margin-top: 450px;
+        margin-top: 400px;
         color: #ffffff;
         z-index: -1;
         animation: fade-up 1s;
@@ -738,11 +739,12 @@ body::-webkit-scrollbar-thumb {
         font-family: "Big Shoulders Stencil Text", sans-serif;
         letter-spacing: -4px;
         margin-left: 10px;
+        margin-bottom: 50px;
     }
 
     span {
 
-        font-size: 100px;
+        font-size: 80px;
         font-family: "Big Shoulders Stencil Text", sans-serif;
         letter-spacing: -4px;
     }
@@ -760,7 +762,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .why-human-form .left-content {
-        width: 350px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -781,7 +783,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .why-human-form .right-content {
-        width: 350px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -825,6 +827,8 @@ body::-webkit-scrollbar-thumb {
         width: 90%;
         margin-top: 50px;
         margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -832,8 +836,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .movement-parts img {
-        width: 400px;
-        height: 400px;
+        width: 100%;
+        height: 300px;
+
         object-fit: cover;
         border-radius: 5px;
     }
